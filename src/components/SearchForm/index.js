@@ -18,7 +18,7 @@ function SearchForm(props) {
           placeholder="Type in a cat breed to begin your search"
           id="breed"
         />
-,.        <datalist id="breeds">
+        <datalist id="breeds">
           {props.breeds.map(breed => (
             <option value={breed} key={breed} />
           ))}
