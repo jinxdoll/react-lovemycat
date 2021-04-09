@@ -7,7 +7,7 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Hero backgroundImage="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.soundsideanimalhospital.com%2Fblog%2Fdental-tips-for-cats.html&psig=AOvVaw1wFoMq-RSKmHRdb9p9TLhH&ust=1617999323438000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJio1bC77-8CFQAAAAAdAAAAABAD">
+      <Hero backgroundImage="./public/cat_image.png">
         <h1>Kitty's</h1>
         <h2>The loyal friend you can always rely on !</h2>
       </Hero>
