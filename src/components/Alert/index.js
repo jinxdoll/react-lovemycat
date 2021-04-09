@@ -4,7 +4,7 @@ function Alert(props) {
   return (
     <div
       role="alert"
-      classname={`alert alert-${props.type} fade in`}
+      className={`alert alert-${props.type} fade in`}
       style={{ width: "80%", margin: "0 auto", marginTop: 18, ...props.style }}
     >
       {props.children}
