@@ -8,7 +8,8 @@ export default {
   getRandomCat: function() {
     return axios.get("https://api.thecatapi.com/v1/images/search");
   },
-  getCatsOfBreed: function(breed) {
+  getCatsOfBreed: function(breeds) {
+    
     return axios.get("https://api.thecatapi.com/v1/breeds/search}");
 
   },
